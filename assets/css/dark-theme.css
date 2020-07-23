@@ -2,8 +2,24 @@ body,
 html {
   font-family: "Archivo", sans-serif;
   overflow-x: hidden;
+  background: #000000;
+  color: #ffffff;
 }
 
+#order .card-body {
+  color: #000000 !important;
+}
+
+#ourdrivers p,
+.contactIconSecFont,
+#contactDetails p.primaryPriceFont {
+  color: #ffffff !important;
+}
+
+#ourdrivers p.primaryPriceFont,
+#ourdrivers p.jobFont {
+  color: #000000 !important;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -15,7 +31,11 @@ html {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
+}
+
+#ordermobile {
+  background: #000000;
 }
 
 #preloader:before {
@@ -70,7 +90,7 @@ html {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #ffffff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -164,6 +184,11 @@ html {
   transition: all 0.4s;
 }
 
+.back-to-top i:hover {
+  background: #3284f1;
+  color: #fff;
+}
+
 .toggleButton #light {
   position: fixed;
   right: 65px;
@@ -176,11 +201,6 @@ html {
   left: 15px;
   bottom: 15px;
   z-index: 99999;
-}
-
-.back-to-top i:hover {
-  background: #3284f1;
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -200,15 +220,6 @@ html {
 
 .clients img:hover {
   transform: scale(1.15);
-}
-
-.fontAwesome {
-  padding: 20px;
-  border-radius: 50%;
-  background: #2131b6;
-  color: #ffffff;
-  width: 80px;
-  height: 80px;
 }
 
 @media (max-width: 768px) {
@@ -378,6 +389,7 @@ html {
 
 #order {
   display: block;
+  background: #000000;
 }
 #ordermobile {
   display: none;
@@ -394,6 +406,7 @@ html {
 
 .pricingFontSize {
   overflow-wrap: break-word;
+  color: #ffffff;
 }
 
 #imageStyle {
@@ -406,6 +419,7 @@ html {
 
 #getDesktop {
   display: block;
+  color: #000000;
 }
 #getMobile {
   display: none;
@@ -445,6 +459,7 @@ html {
 /* Our drivers */
 .pricingFontSize {
   overflow-wrap: break-word;
+  color: #ffffff;
 }
 
 .removeBorder {
@@ -467,16 +482,20 @@ html {
 
 #clients {
   display: block;
+  background-color: #000000;
 }
 #clientsmobile {
   display: none;
+  background-color: #000000;
 }
 
 #testimonial {
   display: block;
+  background: #000000;
 }
 #testimonialmobile {
   display: none;
+  background: #000000;
 }
 
 .centerTestimonial {
@@ -490,6 +509,7 @@ html {
 
 .centerTestimonial p {
   margin-bottom: 4em !important;
+  color: #ffffff;
 }
 
 .quoteColor {
@@ -546,12 +566,25 @@ html {
 }
 
 .textColor {
-  color: #25282b;
+  color: #ffffff;
 }
 
 .footerBgColor {
-  background-color: #25282b;
+  background-color: #000000;
   font-size: 24px;
+}
+
+.fontAwesome {
+  padding: 20px;
+  border-radius: 50%;
+  background: #2131b6;
+  /* color: black; */
+  width: 80px;
+  height: 80px;
+}
+
+#footerLine {
+  border: 1px solid #ffffff;
 }
 
 /* @media screen and (max-width: 768px) { */
@@ -570,13 +603,8 @@ html {
     animation: animate-preloader 1s linear infinite;
   }
 
-  .fontAwesome {
-    padding: 20px;
-    border-radius: 50%;
-    background: #2131b6;
-    width: 60px;
-    height: 60px;
-    color: #ffffff;
+  .jobFont {
+    color: #000000 !important;
   }
 
   .heroImage {
@@ -594,6 +622,13 @@ html {
     font-family: "Overpass", sans-serif;
     padding-left: 2em;
     padding-right: 2em;
+  }
+  .fontAwesome {
+    padding: 10px;
+    border-radius: 50%;
+    background: #2131b6;
+    width: 60px;
+    height: 60px;
   }
 
   .hero img {
@@ -706,16 +741,20 @@ html {
 
   #clients {
     display: none;
+    background-color: #000000;
   }
   #clientsmobile {
     display: block;
+    background-color: #000000;
   }
 
   #testimonial {
     display: none;
+    background: #000000;
   }
   #testimonialmobile {
     display: block;
+    background: #000000;
   }
 
   #testimonialmobile p {
@@ -744,7 +783,7 @@ html {
     font-size: 16px !important;
     line-height: 21px !important;
     text-align: center;
-    color: #52575c;
+    color: #ffffff;
   }
 
   #googlemapframe {
@@ -760,6 +799,7 @@ html {
 
   .primaryPriceFont {
     font-size: 11px;
+    color: #000000 !important;
   }
   /* #desktopFonts {
     display: none;
@@ -810,13 +850,15 @@ html {
     padding: 0em !important;
   }
 
+  .jobFont {
+    color: #000000 !important;
+  }
   .fontAwesome {
     padding: 20px;
     border-radius: 50%;
     background: #2131b6;
-    width: 80px;
-    height: 80px;
-    color: #ffffff;
+    width: 60px;
+    height: 60px;
   }
 
   #about .row {
@@ -843,13 +885,6 @@ html {
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
   }
-
-  /* #gallery .filter-active {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #2131b6;
-    color: #2131b6;
-    height: 3px;
-  } */
 
   .gallery #gallery-flters li:hover,
   .gallery #gallery-flters li.filter-active {
@@ -1089,6 +1124,7 @@ html {
 
   .pricingFontSize {
     overflow-wrap: break-word;
+    color: #ffffff;
   }
 
   #imageStyle {
@@ -1102,6 +1138,7 @@ html {
 
   #getDesktop {
     display: block;
+    color: #000000;
   }
   #getMobile {
     display: none;
@@ -1141,6 +1178,7 @@ html {
   /* Our drivers */
   .pricingFontSize {
     overflow-wrap: break-word;
+    color: #ffffff;
   }
 
   .removeBorder {
@@ -1163,16 +1201,20 @@ html {
 
   #clients {
     display: block;
+    background-color: #000000;
   }
   #clientsmobile {
     display: none;
+    background-color: #000000;
   }
 
   #testimonial {
     display: block;
+    background: #000000;
   }
   #testimonialmobile {
     display: none;
+    background: #000000;
   }
 
   .centerTestimonial {
@@ -1188,6 +1230,7 @@ html {
     font-size: 10px;
     line-height: 1;
     margin-bottom: 100px;
+    color: #ffffff;
   }
 
   .quoteColor {
@@ -1214,7 +1257,7 @@ html {
   }
 
   .footerBgColor {
-    background-color: #25282b;
+    background-color: #000000;
     font-size: 24px;
   }
 }
@@ -1225,20 +1268,22 @@ html {
     padding: 0em;
   }
 
-  .largerView {
-    width: 100%;
+  .jobFont {
+    color: #000000 !important;
   }
-  .container {
-    max-width: 100%;
-  }
-
   .fontAwesome {
     padding: 20px;
     border-radius: 50%;
     background: #2131b6;
     width: 80px;
     height: 80px;
-    color: #ffffff;
+  }
+
+  .largerView {
+    width: 100%;
+  }
+  .container {
+    max-width: 100%;
   }
 
   .cardOverlay img {
@@ -1286,6 +1331,7 @@ html {
 
   .pricingFontSize {
     font-size: 25px;
+    color: #ffffff;
   }
 
   .carFontSize {
@@ -1294,10 +1340,12 @@ html {
 
   .primaryPriceFont {
     font-size: 30px;
+    color: #000000 !important;
   }
 
   .jobFont {
     font-size: 25px;
+    color: #000000 !important;
   }
 
   .blueLine {
@@ -1328,6 +1376,7 @@ html {
   .centerTestimonial p {
     font-size: 40px;
     line-height: 1;
+    color: #ffffff;
   }
 
   .imageWidth {

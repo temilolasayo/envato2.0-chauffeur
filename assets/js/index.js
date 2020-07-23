@@ -25,11 +25,14 @@ $(document).ready(function () {
   //   items: 1,
   // });
 
+
+
   // Porfolio isotope and filter
   $(window).on("load", function () {
     var galleryIsotope = $(".gallery-container").isotope({
       itemSelector: ".gallery-item",
     });
+    $("#activeFilter").addClass("filter-active");
 
     $("#gallery-flters li").on("click", function () {
       $("#gallery-flters li").removeClass("filter-active");
