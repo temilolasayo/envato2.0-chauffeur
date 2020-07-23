@@ -1,0 +1,372 @@
+@media screen and (min-width: 1600px) and (min-width: 1900px) {
+  .galleryContainer {
+    height: 400px !important;
+    padding: 0em;
+  }
+
+  .largerView {
+    width: 100%;
+  }
+  .container {
+    max-width: 100%;
+  }
+
+  .cardOverlay img {
+    width: 100%;
+  }
+  .container img {
+    width: 100%;
+  }
+
+  .aboutprimaryfont {
+    font-size: 60px;
+  }
+
+  .aboutFontSize {
+    font-size: 100px;
+    overflow-wrap: normal;
+    width: 100%;
+  }
+
+  .aboutMiniFontSize {
+    font-size: 35px;
+  }
+
+  .secondaryFontSize {
+    font-weight: 600;
+    font-size: 100px;
+    letter-spacing: 0.03em;
+    font-family: "Archivo", sans-serif;
+  }
+
+  .anotherFontSize {
+    font-size: 50px;
+  }
+
+  .primaryFontSize {
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    font-family: "Overpass", sans-serif;
+  }
+
+  #mobileSize {
+    font-size: 50px;
+  }
+
+  .pricingFontSize {
+    font-size: 25px;
+  }
+
+  .carFontSize {
+    font-size: 35px;
+  }
+
+  .primaryPriceFont {
+    font-size: 30px;
+  }
+
+  .jobFont {
+    font-size: 25px;
+  }
+
+  .blueLine {
+    border: 2px solid #2131b6;
+    width: 10%;
+  }
+
+  .galleryFont {
+    font-size: 50px;
+  }
+
+  .quoteColor {
+    color: #2131b6;
+    font-weight: 600 !important;
+    font-size: 120px;
+    line-height: 42px;
+  }
+
+  .centerTestimonial {
+    position: absolute;
+    /* top: 20%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 25px;
+    line-height: 25px;
+  }
+
+  .centerTestimonial p {
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .imageWidth {
+    width: 25% !important;
+  }
+
+  /* #desktopFonts {
+    display: none;
+  }
+  #mobileFonts {
+    display: none;
+  } */
+
+  /* #largerDesktopFonts {
+    display: flex;
+  } */
+
+  /* .card-group {
+    flex-flow: column;
+  } */
+
+  #largerDesktoprow .img-fluid {
+    max-width: 100%;
+    height: 500px;
+  }
+
+  .outerdiv img {
+    height: 100%;
+  }
+}
+
+
+
+/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 768px) {
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: 50%;
+    /* left: 50%; */
+    border-top: 16px solid #2131b6;
+    border-bottom: 16px solid #2131b6;
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+
+  .heroImage {
+    height: 496px !important;
+  }
+
+  .hero {
+    width: 100% !important;
+  }
+
+  .hero p {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    font-family: "Overpass", sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .hero img {
+    width: 25%;
+  }
+
+  .navStyle {
+    opacity: 0.5 !important;
+  }
+
+  .navStyle:hover {
+    opacity: 1 !important;
+  }
+
+  #about {
+    display: none;
+  }
+  #aboutmobile {
+    display: block;
+  }
+
+  .containers img {
+    width: 100vh;
+    height: 320px;
+  }
+
+  .aboutFontSize {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .secondaryFontSize {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 35px;
+    font-family: "Archivo", sans-serif;
+  }
+
+  /* .primaryFontSize {
+    font-size: 11px;
+  } */
+
+  .primaryFontSize {
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    font-family: "Overpass", sans-serif;
+  }
+
+  #contactDetails img {
+    width: 60px;
+  }
+
+  .heroButtonSize {
+    width: 170px;
+    height: 46.79px;
+    font-size: 14px;
+    font-family: "Archivo", sans-serif;
+  }
+
+  .getInTouchBtn {
+    width: 158.54px;
+    height: 47.08px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  #order {
+    display: none;
+  }
+  #ordermobile {
+    display: block;
+  }
+
+  #getDesktop {
+    display: none;
+  }
+  #getMobile {
+    display: block;
+    width: 100%;
+  }
+
+  .orderRideBTn {
+    width: 250px;
+    height: 43px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  #getMobile h1 {
+    font-size: 20px;
+  }
+
+  .mobilegallerysize {
+    width: 100%;
+    height: 250px;
+    /* display: flex; */
+  }
+
+  .headerFont {
+    font-size: 25px !important;
+  }
+
+  #ourdrivers img {
+    width: 100%;
+  }
+
+  #clients {
+    display: none;
+  }
+  #clientsmobile {
+    display: block;
+  }
+
+  #testimonial {
+    display: none;
+  }
+  #testimonialmobile {
+    display: block;
+  }
+
+  #testimonialmobile p {
+    font-size: 10px;
+    line-height: 0px;
+    /* width: 100%; */
+  }
+
+  .centerTestimonial {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-80%, -60%);
+  }
+
+  .quoteMobileFont {
+    /* line-height: 1 !important;
+    color: #000000;
+    font-size: 10px !important; */
+
+    width: 270.15px;
+    height: 121px;
+    font-family: "Overpass", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 21px !important;
+    text-align: center;
+    color: #52575c;
+  }
+
+  #googlemapframe {
+    display: none;
+  }
+  #googlemapmobile {
+    display: block;
+  }
+
+  .contactImage {
+    max-width: 100%;
+  }
+
+  .primaryPriceFont {
+    font-size: 11px;
+  }
+  /* #desktopFonts {
+    display: none;
+  }
+  #mobileFonts {
+    display: block;
+  } */
+
+  /* #largerDesktopFonts {
+    display: none;
+  } */
+
+  .contactIconSecFont {
+    font-size: 11px;
+  }
+
+  .galleryFont {
+    font-size: 20px;
+  }
+
+  .gallery #gallery-flters {
+    padding: 0em;
+  }
+
+  .galleryContainer,
+  .imageHeight {
+    height: 250px !important;
+    width: 375px;
+  }
+
+  .cardOverlay img {
+    height: 250px;
+  }
+
+  .outerdiv img {
+    height: 300px;
+  }
+
+  .footer {
+    font-size: 14px !important;
+  }
+}
