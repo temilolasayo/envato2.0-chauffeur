@@ -1,0 +1,76 @@
+body,
+html {
+  font-family: "Archivo", sans-serif;
+  overflow-x: hidden;
+  line-height: 3 !important;
+}
+.sidenav {
+  overflow-x: hidden;
+  position: fixed;
+  height: 100%;
+}
+
+#contentNav {
+  margin-left: 0;
+  padding-left: 6em;
+}
+
+.hrWidth {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.goldColor {
+  color: #fcda2b;
+}
+
+.blueBackGround {
+  background: #062863;
+  color: #ffffff;
+}
+
+.blueBackGround a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blueBackGround a p {
+  padding-bottom: 15%;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #fff !important;
+}
+
+.navMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidenav {
+    display: none;
+  }
+  .navMobile {
+    display: block;
+  }
+
+  #contentNav {
+    margin-left: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (width: 1024px) {
+  #contentNav {
+    margin-left: 5%;
+  }
+}
